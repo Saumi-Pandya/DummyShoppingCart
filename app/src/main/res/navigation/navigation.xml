@@ -12,6 +12,10 @@
         <action
             android:id="@+id/action_check_to_thanks"
             app:destination="@id/thanks"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
             app:popUpTo="@id/details"
             app:popUpToInclusive="false" />
         <argument
@@ -26,6 +30,10 @@
         <action
             android:id="@+id/action_thanks_to_home"
             app:destination="@id/home"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
             app:popUpTo="@id/home"
             app:popUpToInclusive="true" />
         <argument
@@ -40,8 +48,8 @@
         <action
             android:id="@+id/action_fragment_List_3_to_details_Fragment_3"
             app:destination="@id/details"
-            app:enterAnim="@anim/slide_in_from_left"
-            app:exitAnim="@anim/fade_out"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
             app:popEnterAnim="@anim/nav_default_pop_enter_anim"
             app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
@@ -52,7 +60,11 @@
         tools:layout="@layout/fragment_details__3" >
         <action
             android:id="@+id/action_details_to_checkout"
-            app:destination="@id/checkout" />
+            app:destination="@id/checkout"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_exit_anim" />
         <argument
             android:name="id"
             app:argType="integer" />
