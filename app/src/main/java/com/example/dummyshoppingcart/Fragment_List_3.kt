@@ -9,6 +9,7 @@ import android.widget.Toast
 import androidx.navigation.Navigation.findNavController
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.findNavController
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
@@ -31,6 +32,11 @@ class ListFragment : Fragment(), ProductAdapter.OnItemClickListener {
             setHasFixedSize(true)
 
 
+        }
+        val layoutManager=LinearLayoutManager(activity)
+
+        DividerItemDecoration(requireContext(),layoutManager.orientation).apply {
+            productList.addItemDecoration(this)
         }
     }
 
