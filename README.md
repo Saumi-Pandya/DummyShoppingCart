@@ -12,3 +12,5 @@ Once the user clicks on the checkout button, thanks screen will be displayed whi
 * ViewModel Factory
 * Model-View-View-Model(MVVM) Architecture
 * RecyclerView
+
+<img src="https://user-images.githubusercontent.com/72929195/104595688-f75cbd80-5698-11eb-9161-3ed37cb82fec.jpg" > 
