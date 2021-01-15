@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#F0F4C3"
     android:layout_height="match_parent"
     tools:context=".Details_Fragment_3">
 
@@ -20,12 +21,12 @@
     <TextView
         android:id="@+id/prolongdesc"
         android:layout_width="match_parent"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="This is avery good phone. It provides you with a lot of features"
-        android:textSize="18dp"
+        android:text="This is a very good phone. It provides you with a lot of features"
+        android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintTop_toBottomOf="@+id/include"
         tools:layout_editor_absoluteX="12dp" />
@@ -34,11 +35,11 @@
         android:id="@+id/buttonBuy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="36dp"
         android:text="BUY THIS PRODUCT"
         app:backgroundTint="#399BDC"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/prolongdesc" />
 </androidx.constraintlayout.widget.ConstraintLayout>

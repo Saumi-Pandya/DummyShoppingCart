@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#F0F4C3"
     android:layout_height="match_parent"
     tools:context=".Thanks_Fragment">
 
@@ -12,8 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:gravity="center"
-        android:text="Thank You for shopping with us. We would like to know more about you. You can continue shopping by clicking the button below"
-        android:textSize="20dp"
+        android:text="Thank You for shopping with us. Your order will arrive in 5-6 business days. You can continue shopping by clicking the button below"
+        android:textSize="30sp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -24,6 +28,7 @@
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
         android:layout_marginTop="44dp"
+        app:backgroundTint="#399BDC"
         android:text="CONTINUE SHOPPING"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
